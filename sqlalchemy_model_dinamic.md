@@ -50,7 +50,7 @@ if __name__ == "__main__":
     select()
     
     
-#生成Model方式
+# 生成Model方式
 使用包sqlacodegen
 安装pip install sqlacodegen
 使用命令：sqlacodegen mysql://root:root@127.0.0.1:3306/mydb > models.py即可在当前目录生成models.py文件 
